@@ -7,6 +7,7 @@ IRremote
 LiquidCrystal
 (includes in this repo)
 
+
 # Other requirements
 Here i use ELEGOO MEGA 2560 R3
 X leds (X/2 red and X/2 green) (X is a pair number)
@@ -18,6 +19,7 @@ USB cable for connected arduino to your computer
 too many male/male cable
 And Some talent in airsoft :) (that i don't have)
 
+
 # Code variables
 int ledPin[10][2] = {{22, 23},{24, 25},{26, 27},{28, 29},{30, 31},{32, 33},{34, 35},{36, 37},{38, 39},{40, 41}}; 
 its all my possibly pin that i can use for leds. as you can see on the image, i have only 4 target. so on the menu, i wil choose the 4 first target ({22, 23},{24, 25},{26, 27},{28, 29}) the other pins will not be used
@@ -28,3 +30,6 @@ its all my possibly pin that i can use for button. with 4 target, these 4 first 
 you have only 2 target ? no problem, select with the remote 2 for number of target and you will play with these pin: 53,52
 
 !! you don't have to change the code !! (only if you are in another arduino card with other pins)
+
+# You want to see these images ? #
+on github click on the image, then right click on it and click on open image in new tab
